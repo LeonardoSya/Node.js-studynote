@@ -1,0 +1,14 @@
+{
+  "name": "leonardosya_thefirst",
+  "version": "1.0.1",
+  "description": "This package include function add and sub",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "LeonardoSya",
+  "license": "ISC",
+  "dependencies": {
+    "leonardosya_thefirst": "^1.0.1"
+  }
+}

@@ -1,0 +1,5 @@
+<% if(judgement) { %>
+<span>welcome</span>
+<% } else { %>
+<button>register</button> <button>login</button>
+<% } %>    

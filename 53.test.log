@@ -1,0 +1,5 @@
+<ul>
+    <% we.forEach(item => { %>
+    <li><%= item %></li>
+    <% }) %>
+</ul>

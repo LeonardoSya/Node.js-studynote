@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>文件上传</title>
+</head>
+
+<body>
+    <h2>文件上传</h2>
+    <hr>
+    <!-- 在做文件上传时，form里 enctype="multipart/form-data" 不可省略 -->
+    <form action="/portrait" method="post" enctype="multipart/form-data">
+        username: <input type="text" name="username" id=""><br><br>
+        portrait: <input type="file" name="portrait" id=""><br>
+        <hr>
+        <button>submit your portrait</button>
+    </form>
+</body>
+
+</html>
